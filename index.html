@@ -190,7 +190,7 @@
 					<div class="hui-48">New products listed</div>
 				</div>
 				<div id="shangcheng-3">
-					<div class="shangcheng-3-1">
+					<div class="shangcheng-3-1" onclick="page_Num_20()">
 						<div class="shangcheng-3-1-1"></div>
 						<div class="hei-48">商品主标题</div>
 						<div class="hui-36">商品副标题/商品销量</div>
@@ -199,7 +199,7 @@
 							<img src="images/jia.png" alt="" class="shangcheng-3-1-2-img">
 						</div>
 					</div>
-					<div class="shangcheng-3-1">
+					<div class="shangcheng-3-1 shangcheng-3-2" onclick="page_Num_20()">
 						<div class="shangcheng-3-1-1"></div>
 						<div class="hei-48">商品主标题</div>
 						<div class="hui-36">商品副标题/商品销量</div>
@@ -718,7 +718,12 @@
 				<div class="page-div">19.预定点餐</div>
 			</div>
 			<div id="page-20" class="page">
-				<div class="page-div">20.</div>
+				<div class="zhuangtailan"></div>
+				<div class="xiaochengxu">
+					<div class="page-title-z">商品详情</div>
+					<img src="images/xiaochengxu-icon.png" alt="" class="xiaochengxu-icon">
+				</div>
+				<div id="zhutu"></div>
 			</div>
 			<div id="page-21" class="page">
 				<div class="page-div">21.</div>
@@ -856,6 +861,10 @@
 	}
 	function page_Num_1() {
 		page_Num = 1;
+		Page_turning()
+	}
+	function page_Num_20() {
+		page_Num = 20;
 		Page_turning()
 	}
 	function Page_turning() {

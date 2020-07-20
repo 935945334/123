@@ -595,11 +595,21 @@ img{
 	border-radius: 8px;
 	overflow-x: hidden;
     overflow-y: hidden;
+    position: absolute;
 }
-
+.shangcheng-3-2{
+	width: 155px;
+	/*height: 200px;*/
+	background: #fff;
+	border-radius: 8px;
+	overflow-x: hidden;
+    overflow-y: hidden;
+    position: absolute;
+    left: 195px;
+}
 .shangcheng-3-1-1{
 	width: 155px;
-	height: 80px;
+	height: 100px;
 	background: #f6b37f;
 }
 .shangcheng-3-1-2{
@@ -625,7 +635,12 @@ img{
 .shangcheng-3-1-2-img{
 	width: 18px;
 }
-
+#zhutu{
+	width: 375px;
+	height: 375px;
+	background: #f6b37f;
+	margin-top: 88px;
+}
 
 
 
