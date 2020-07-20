@@ -5,6 +5,11 @@ html{
 img{
 	display: block;
 }
+.hei-60{
+	color: #343434;
+	font-size: 20px;
+	pointer-events: none;
+}
 .hei-48{
 	color: #343434;
 	font-size: 16px;
@@ -20,6 +25,11 @@ img{
 	font-size: 12px;
 	pointer-events: none;
 }
+.hui-60{
+	color: #999999;
+	font-size: 20px;
+	pointer-events: none;
+}
 .hui-48{
 	color: #999999;
 	font-size: 16px;
@@ -33,6 +43,11 @@ img{
 .hui-36{
 	color: #999999;
 	font-size: 12px;
+	pointer-events: none;
+}
+.cheng-60{
+	color: #f6b37f;
+	font-size: 20px;
 	pointer-events: none;
 }
 .cheng-48{
@@ -513,17 +528,103 @@ img{
 	margin-left: 10px;
 	color: #f6b37f;
 }
+#shangcheng-banner{
+	width: 375px;
+	height: 220px;
+	margin-top: 88px;
+	background: #eddcc4;
+}
+#shangcheng-1{
+	width: 330px;
+	height: 180px;
+	margin-top: 20px;
+	display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+}
+#shangcheng-1-1{
+	width: calc(48% - 10px);
+	height: 180px;
+	background: #7ecef4;
+	margin-right: 20px;
+	border-radius: 8px;
+}
+#shangcheng-1-2{
+	width: calc(52% - 10px);
+	height: 180px;
+	display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+}
+#shangcheng-1-2-1{
+	width: 100%;
+	height: calc(50% - 10px);
+	background: #cce198;
+	border-radius: 8px;
+}
+#shangcheng-1-2-2{
+	width: 100%;
+	height: calc(50% - 10px);
+	background: #fff799;
+	border-radius: 8px;
+}
+#shangcheng-2{
+	display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: flex-end;
+    align-items: flex-end;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 330px;
+}
+#shangcheng-3{
+	width: 330px;
+	display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+}
+.shangcheng-3-1{
+	width: 155px;
+	/*height: 200px;*/
+	background: #fff;
+	border-radius: 8px;
+	overflow-x: hidden;
+    overflow-y: hidden;
+}
 
-
-
-
-
-
-
-
-
-
-
+.shangcheng-3-1-1{
+	width: 155px;
+	height: 80px;
+	background: #f6b37f;
+}
+.shangcheng-3-1-2{
+	width: 135px;
+	margin-left: 10px;
+	margin-top: 5px;
+	margin-bottom: 10px;
+	display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+}
+.shangcheng-3-1 .hei-48{
+	margin-left: 10px;
+	margin-top: 10px;
+}
+.shangcheng-3-1 .hui-36{
+	margin-left: 10px;
+	margin-top: 5px;
+}
+.shangcheng-3-1-2-img{
+	width: 18px;
+}
 
 
 
