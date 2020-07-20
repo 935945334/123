@@ -3,34 +3,895 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Document</title>
+	<link rel="stylesheet" href="1.css">
+	<style>
+		
+
+	</style>
 </head>
 <body>
-	<img src="1-1.png" alt="" class="QQQ">
-	<img src="1-2.png" alt="" class="QQQ">
-	<img src="2-1.png" alt="" class="QQQ">
-	<img src="2-2.png" alt="" class="QQQ">
-	<img src="3-1.png" alt="" class="QQQ">
-	<img src="3-2.png" alt="" class="QQQ">
-	<img src="4-1.png" alt="" class="QQQ">
-	<img src="4-1.png" alt="" class="QQQ">
-	<img src="8.png" alt="" class="QQQ">
-	<img src="9.png" alt="" class="QQQ">
-	<div class="txt"></div>
-	<div class="txt"></div>
-	<div class="txt"></div>
-	<div class="txt"></div>
-	<div class="txt"></div>
-	<div class="txt"></div>
-	<div class="txt"></div>
-	<div class="txt"></div>
-	<div class="txt"></div>
-	<div class="txt"></div>
+	<div id="body">
+		<div id="IPHONE"></div>
+		<div id="APP-body">
+			<div id="page-0" class="page">
+				<div class="xiaochengxu-t">
+					<div class="page-title-z">权牛牛</div>
+					<img src="images/xiaochengxu-icon.png" alt="" class="xiaochengxu-icon">
+				</div>
+				<div id="banner"></div>
+				<div id="card-1">
+					<div id="card-1-1">
+						<img src="images/tangshi.png" alt="" onclick="page_Num_4()">
+					</div>
+					<div id="card-1-2">
+						<img src="images/yuding.png" alt="" onclick="page_Num_13()">
+					</div>
+				</div>
+				<div id="card-2">
+					<div id="card-2-1" class="card-2-div">
+						<img src="images/pintuan.png" alt="">
+					</div>
+					<div id="card-2-2" class="card-2-div">
+						<img src="images/kanjia.png" alt="">
+					</div>
+				</div>
+				<div id="integral">
+					<div id="integral-1">
+						<div class="hei-42">我的积分 666</div>
+						<div class="hui-36">瞧一瞧看一看积分换不锈钢菜刀脸盆</div>
+					</div>
+					<div id="integral-2">
+						<img src="images/saoma.png" alt="">
+						<div class="hui-36">会员码</div>
+					</div>
+				</div>
+			</div>
+			<div id="page-1" class="page">
+				<div class="zhuangtailan"></div>
+				<div class="xiaochengxu">
+					<div class="page-title-z">我的订单</div>
+					<img src="images/xiaochengxu-icon.png" alt="" class="xiaochengxu-icon">
+				</div>
+				<div id="dingdan">
+					<div id="dingdan-1" class="hei-48" onclick="dd_1()">当前订单</div>
+					<div id="dingdan-2" class="hui-48" onclick="dd_2()">历史订单</div>
+				</div>
+				<div class="dingdan" onclick="page_Num_8()">
+					<div class="dingdan-title">
+						<div class="dingdan-title-1" class="hei-48">碳烤一头牛远洋店(堂食)</div>
+						<div class="dingdan-title-cheng">用餐中</div>
+					</div>
+					<div class="dingdan-body">
+						<img src="images/dingdan-1.png" alt="" class="dingdan-body-img">
+						<div class="dingdan-body-text">
+							<div class="dingdan-body-text-1 hei-36">总价：117</div>
+							<!-- <div class="dingdan-body-text-2 hei-36">预约时间：2020-07-31 16:30</div> -->
+							<div class="dingdan-body-text-3 hui-36">下单时间：2020-07-31 16:00</div>
+						</div>
+					</div>
+				</div>
+				<div class="dingdan" onclick="page_Num_12()">
+					<div class="dingdan-title">
+						<div class="dingdan-title-1" class="hei-48">碳烤一头牛远洋店(预定)</div>
+						<div class="dingdan-title-cheng">已预订</div>
+					</div>
+					<div class="dingdan-body">
+						<img src="images/dingdan-2.png" alt="" class="dingdan-body-img">
+						<div class="dingdan-body-text">
+							<div class="dingdan-body-text-1 hei-36">总价：117</div>
+							<div class="dingdan-body-text-2 hei-36">预约时间：2020-07-31 16:30</div>
+							<div class="dingdan-body-text-3 hui-36">下单时间：2020-07-31 16:00</div>
+						</div>
+					</div>
+				</div>
+				<div class="dingdan" onclick="page_Num_11()">
+					<div class="dingdan-title">
+						<div class="dingdan-title-1" class="hei-48">碳烤一头牛远洋店(预定)</div>
+						<div class="dingdan-title-hei">待付款</div>
+					</div>
+					<div class="dingdan-body">
+						<img src="images/dingdan-3.png" alt="" class="dingdan-body-img">
+						<div class="dingdan-body-text">
+							<div class="dingdan-body-text-1 hei-36">总价：117</div>
+							<div class="dingdan-body-text-2 hei-36">预约时间：2020-07-31 16:30</div>
+							<div class="dingdan-body-text-3 hui-36">下单时间：2020-07-31 16:00</div>
+						</div>
+					</div>
+				</div>
+				<div class="dingdan" onclick="page_Num_16()">
+					<div class="dingdan-title">
+						<div class="dingdan-title-1" class="hei-48">团购/砍价套餐</div>
+						<div class="dingdan-title-cheng">待使用</div>
+					</div>
+					<div class="dingdan-body">
+						<img src="images/dingdan-4.png" alt="" class="dingdan-body-img">
+						<div class="dingdan-body-text">
+							<div class="dingdan-body-text-1 hei-36">总价：117</div>
+							<!-- <div class="dingdan-body-text-2 hei-36">预约时间：2020-07-31 16:30</div> -->
+							<div class="dingdan-body-text-3 hui-36">下单时间：2020-07-31 16:00</div>
+						</div>
+					</div>
+				</div>
+				<div class="dingdan-2" onclick="page_Num_9()">
+					<div class="dingdan-title">
+						<div class="dingdan-title-1" class="hei-48">碳烤一头牛远洋店(堂食)</div>
+						<div class="dingdan-title-hui">已完成</div>
+					</div>
+					<div class="dingdan-body">
+						<img src="images/dingdan-1.png" alt="" class="dingdan-body-img">
+						<div class="dingdan-body-text">
+							<div class="dingdan-body-text-1 hei-36">总价：117</div>
+							<!-- <div class="dingdan-body-text-2 hei-36">预约时间：2020-07-31 16:30</div> -->
+							<div class="dingdan-body-text-3 hui-36">下单时间：2020-07-31 16:00</div>
+						</div>
+					</div>
+				</div>
+				<div class="dingdan-2" onclick="page_Num_13()">
+					<div class="dingdan-title">
+						<div class="dingdan-title-1" class="hei-48">碳烤一头牛远洋店(预定)</div>
+						<div class="dingdan-title-hui">已完成</div>
+					</div>
+					<div class="dingdan-body">
+						<img src="images/dingdan-2.png" alt="" class="dingdan-body-img">
+						<div class="dingdan-body-text">
+							<div class="dingdan-body-text-1 hei-36">总价：117</div>
+							<div class="dingdan-body-text-2 hei-36">预约时间：2020-07-31 16:30</div>
+							<div class="dingdan-body-text-3 hui-36">下单时间：2020-07-31 16:00</div>
+						</div>
+					</div>
+				</div>
+				<div class="dingdan-2" onclick="page_Num_14()">
+					<div class="dingdan-title">
+						<div class="dingdan-title-1" class="hei-48">碳烤一头牛远洋店(预定)</div>
+						<div class="dingdan-title-hui">已关闭</div>
+					</div>
+					<div class="dingdan-body">
+						<img src="images/dingdan-3.png" alt="" class="dingdan-body-img">
+						<div class="dingdan-body-text">
+							<div class="dingdan-body-text-1 hei-36">总价：117</div>
+							<div class="dingdan-body-text-2 hei-36">预约时间：2020-07-31 16:30</div>
+							<div class="dingdan-body-text-3 hui-36">下单时间：2020-07-31 16:00</div>
+						</div>
+					</div>
+				</div>
+				<div class="dingdan-2" onclick="page_Num_17()">
+					<div class="dingdan-title">
+						<div class="dingdan-title-1" class="hei-48">团购/砍价套餐</div>
+						<div class="dingdan-title-hui">已使用</div>
+					</div>
+					<div class="dingdan-body">
+						<img src="images/dingdan-4.png" alt="" class="dingdan-body-img">
+						<div class="dingdan-body-text">
+							<div class="dingdan-body-text-1 hei-36">总价：117</div>
+							<!-- <div class="dingdan-body-text-2 hei-36">预约时间：2020-07-31 16:30</div> -->
+							<div class="dingdan-body-text-3 hui-36">下单时间：2020-07-31 16:00</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="page-2" class="page">
+				<div class="xiaochengxu">
+					<div class="page-title-z">权牛牛商城</div>
+					<img src="images/xiaochengxu-icon.png" alt="" class="xiaochengxu-icon">
+				</div>
+			</div>
+			<div id="page-3" class="page">
+				<div class="xiaochengxu">
+					<!-- <div class="page-title-z">我的订单</div> -->
+					<img src="images/xiaochengxu-icon.png" alt="" class="xiaochengxu-icon">
+				</div>
+			</div>
+			<div id="page-4" class="page">
+				<div class="page-div">4.假装在扫码</div>
+			</div>
+			<div id="page-5" class="page">
+				<div class="page-div">5.点餐</div>
+			</div>
+			<div id="page-6" class="page">
+				<div class="page-div">6.支付</div>
+			</div>
+			<div id="page-7" class="page">
+				<div class="page-div">7.堂食-待支付</div>
+			</div>
+			<div id="page-8" class="page">
+				<div class="zhuangtailan"></div>
+				<div class="xiaochengxu">
+					<img src="images/return.png" alt="" class="return_Btn" onclick="page_Num_1()">
+					<div class="page-title-l">订单详情</div>
+					<img src="images/xiaochengxu-icon.png" alt="" class="xiaochengxu-icon">
+				</div>
+				<div class="zhangdan">
+					<div class="zhangdan-title">
+						<div class="cheng-48">用餐中</div>
+					</div>
+					<div class="zhangdan-1">
+						<div class="zhangdan-1-1">
+							<div class="hei-48">碳烤一头牛远洋店（堂食）</div>
+							<div class="hui-36">秦皇岛市海港区河北大街西段550号</div>
+						</div>
+						<div class="zhangdan-1-2">
+							<img src="images/dianhua.png" alt="" class="zhangdan-1-2-1">
+							<img src="images/kefu.png" alt="" class="zhangdan-1-2-2">
+						</div>
+					</div>
+					<div class="zhangdan-2">
+						<div class="zhangdan-2-1">
+							<div class="hei-42">进口肥牛</div>
+							<div class="hei-42 zhangdan-2-1-2">x1</div>
+							<div class="hei-42">￥59</div>
+						</div>
+						<div class="zhangdan-2-1">
+							<div class="hei-42">进口肥牛</div>
+							<div class="hei-42 zhangdan-2-1-2">x1</div>
+							<div class="hei-42">￥59</div>
+						</div>
+						<div class="zhangdan-2-1">
+							<div class="hei-42">进口肥牛</div>
+							<div class="hei-42 zhangdan-2-1-2">x1</div>
+							<div class="hei-42">￥59</div>
+						</div>
+						<div class="zhangdan-2-1 zhangdan-2-1-hui-1">
+							<div class="hui-42">商品总价</div>
+							<div class="hui-42">￥177</div>
+						</div>
+						<div class="zhangdan-2-1 zhangdan-2-1-hui-2">
+							<div class="hui-42">优惠</div>
+							<div class="hui-42">-￥1</div>
+						</div>
+					</div>
+					<div class="zhangdan-3">
+						<div class="hei-42">合计</div>
+						<div class="hei-42">￥176</div>
+					</div>
+					<div class="zhangdan-4">
+						<div class="hui-36">下单时间：2020-7-30 16:30</div>
+						<div class="hui-36">订单编号：1011001010011010111010</div>
+						<div class="hui-36">备注信息：无</div>
+					</div>
+				</div>
+			</div>
+			<div id="page-9" class="page">
+				<div class="zhuangtailan"></div>
+				<div class="xiaochengxu">
+					<img src="images/return.png" alt="" class="return_Btn" onclick="page_Num_1()">
+					<div class="page-title-l">订单详情</div>
+					<img src="images/xiaochengxu-icon.png" alt="" class="xiaochengxu-icon">
+				</div>
+				<div class="zhangdan">
+					<div class="zhangdan-title">
+						<div class="hui-48">已完成</div>
+					</div>
+					<div class="zhangdan-1">
+						<div class="zhangdan-1-1">
+							<div class="hei-48">碳烤一头牛远洋店（堂食）</div>
+							<div class="hui-36">秦皇岛市海港区河北大街西段550号</div>
+						</div>
+						<div class="zhangdan-1-2">
+							<img src="images/dianhua.png" alt="" class="zhangdan-1-2-1">
+							<img src="images/kefu.png" alt="" class="zhangdan-1-2-2">
+						</div>
+					</div>
+					<div class="zhangdan-2">
+						<div class="zhangdan-2-1">
+							<div class="hei-42">进口肥牛</div>
+							<div class="hei-42 zhangdan-2-1-2">x1</div>
+							<div class="hei-42">￥59</div>
+						</div>
+						<div class="zhangdan-2-1">
+							<div class="hei-42">进口肥牛</div>
+							<div class="hei-42 zhangdan-2-1-2">x1</div>
+							<div class="hei-42">￥59</div>
+						</div>
+						<div class="zhangdan-2-1">
+							<div class="hei-42">进口肥牛</div>
+							<div class="hei-42 zhangdan-2-1-2">x1</div>
+							<div class="hei-42">￥59</div>
+						</div>
+						<div class="zhangdan-2-1 zhangdan-2-1-hui-1">
+							<div class="hui-42">商品总价</div>
+							<div class="hui-42">￥177</div>
+						</div>
+						<div class="zhangdan-2-1 zhangdan-2-1-hui-2">
+							<div class="hui-42">优惠</div>
+							<div class="hui-42">-￥1</div>
+						</div>
+					</div>
+					<div class="zhangdan-3">
+						<div class="hei-42">合计</div>
+						<div class="hei-42">￥176</div>
+					</div>
+					<div class="zhangdan-4">
+						<div class="hui-36">下单时间：2020-7-30 16:30</div>
+						<div class="hui-36">订单编号：1011001010011010111010</div>
+						<div class="hui-36">备注信息：无</div>
+					</div>
+				</div>
+			</div>
+			<div id="page-10" class="page">
+				<div class="page-div">10.堂食-已关闭</div>
+			</div>
+			<div id="page-11" class="page">
+				<div class="zhuangtailan"></div>
+				<div class="xiaochengxu">
+					<img src="images/return.png" alt="" class="return_Btn" onclick="page_Num_1()">
+					<div class="page-title-l">订单详情</div>
+					<img src="images/xiaochengxu-icon.png" alt="" class="xiaochengxu-icon">
+				</div>
+				<div class="zhangdan">
+					<div class="zhangdan-title">
+						<div class="hei-48">待付款</div>
+						<img src="images/qianbao.png" alt="" class="qianbao">
+						<div class="zhangdan-title-time">
+							<div class="cheng-36">04:59</div>
+							<div class="hei-36">后订单将会自动取消</div>
+						</div>
+						<div class="zhangdan-title-Btn">
+							<div class="hui-36 zhangdan-title-Btn-hui">取消订单</div>
+							<div class="cheng-36 zhangdan-title-Btn-cheng">立即支付</div>
+						</div>
+					</div>
+					<div class="zhangdan-1">
+						<div class="zhangdan-1-1">
+							<div class="hei-48">碳烤一头牛远洋店（预定）</div>
+							<div class="hui-36">秦皇岛市海港区河北大街西段550号</div>
+						</div>
+						<div class="zhangdan-1-2">
+							<img src="images/dianhua.png" alt="" class="zhangdan-1-2-1">
+							<img src="images/kefu.png" alt="" class="zhangdan-1-2-2">
+						</div>
+					</div>
+					<div class="zhangdan-2">
+						<div class="zhangdan-2-1">
+							<div class="hei-42">进口肥牛</div>
+							<div class="hei-42 zhangdan-2-1-2">x1</div>
+							<div class="hei-42">￥59</div>
+						</div>
+						<div class="zhangdan-2-1">
+							<div class="hei-42">进口肥牛</div>
+							<div class="hei-42 zhangdan-2-1-2">x1</div>
+							<div class="hei-42">￥59</div>
+						</div>
+						<div class="zhangdan-2-1">
+							<div class="hei-42">进口肥牛</div>
+							<div class="hei-42 zhangdan-2-1-2">x1</div>
+							<div class="hei-42">￥59</div>
+						</div>
+						<div class="zhangdan-2-1 zhangdan-2-1-hui-1">
+							<div class="hui-42">商品总价</div>
+							<div class="hui-42">￥177</div>
+						</div>
+						<div class="zhangdan-2-1 zhangdan-2-1-hui-2">
+							<div class="hui-42">优惠</div>
+							<div class="hui-42">-￥1</div>
+						</div>
+					</div>
+					<div class="zhangdan-3">
+						<div class="hei-42">合计</div>
+						<div class="hei-42">￥176</div>
+					</div>
+					<div class="zhangdan-4">
+						<div class="hui-36">下单时间：2020-7-30 16:30</div>
+						<div class="hui-36">用餐时间：2020-7-30 19:30</div>
+						<div class="hui-36">用餐人数：3人</div>
+						<div class="hui-36">是否包间：否</div>
+						<div class="hui-36">订单编号：1011001010011010111010</div>
+						<div class="hui-36">备注信息：无</div>
+					</div>
+				</div>
+			</div>
+			<div id="page-12" class="page">
+				<div class="zhuangtailan"></div>
+				<div class="xiaochengxu">
+					<img src="images/return.png" alt="" class="return_Btn" onclick="page_Num_1()">
+					<div class="page-title-l">订单详情</div>
+					<img src="images/xiaochengxu-icon.png" alt="" class="xiaochengxu-icon">
+				</div>
+				<div class="zhangdan">
+					<div class="zhangdan-title">
+						<div class="cheng-48">已预订</div>
+					</div>
+					<div class="zhangdan-1">
+						<div class="zhangdan-1-1">
+							<div class="hei-48">碳烤一头牛远洋店（预定）</div>
+							<div class="hui-36">秦皇岛市海港区河北大街西段550号</div>
+						</div>
+						<div class="zhangdan-1-2">
+							<img src="images/dianhua.png" alt="" class="zhangdan-1-2-1">
+							<img src="images/kefu.png" alt="" class="zhangdan-1-2-2">
+						</div>
+					</div>
+					<div class="zhangdan-2">
+						<div class="zhangdan-2-1">
+							<div class="hei-42">进口肥牛</div>
+							<div class="hei-42 zhangdan-2-1-2">x1</div>
+							<div class="hei-42">￥59</div>
+						</div>
+						<div class="zhangdan-2-1">
+							<div class="hei-42">进口肥牛</div>
+							<div class="hei-42 zhangdan-2-1-2">x1</div>
+							<div class="hei-42">￥59</div>
+						</div>
+						<div class="zhangdan-2-1">
+							<div class="hei-42">进口肥牛</div>
+							<div class="hei-42 zhangdan-2-1-2">x1</div>
+							<div class="hei-42">￥59</div>
+						</div>
+						<div class="zhangdan-2-1 zhangdan-2-1-hui-1">
+							<div class="hui-42">商品总价</div>
+							<div class="hui-42">￥177</div>
+						</div>
+						<div class="zhangdan-2-1 zhangdan-2-1-hui-2">
+							<div class="hui-42">优惠</div>
+							<div class="hui-42">-￥1</div>
+						</div>
+					</div>
+					<div class="zhangdan-3">
+						<div class="hei-42">合计</div>
+						<div class="hei-42">￥176</div>
+					</div>
+					<div class="zhangdan-4">
+						<div class="hui-36">下单时间：2020-7-30 16:30</div>
+						<div class="hui-36">用餐时间：2020-7-30 19:30</div>
+						<div class="hui-36">用餐人数：3人</div>
+						<div class="hui-36">是否包间：否</div>
+						<div class="hui-36">订单编号：1011001010011010111010</div>
+						<div class="hui-36">备注信息：无</div>
+					</div>
+				</div>
+			</div>
+			<div id="page-13" class="page">
+				<div class="zhuangtailan"></div>
+				<div class="xiaochengxu">
+					<img src="images/return.png" alt="" class="return_Btn" onclick="page_Num_1()">
+					<div class="page-title-l">订单详情</div>
+					<img src="images/xiaochengxu-icon.png" alt="" class="xiaochengxu-icon">
+				</div>
+				<div class="zhangdan">
+					<div class="zhangdan-title">
+						<div class="hui-48">已完成</div>
+					</div>
+					<div class="zhangdan-1">
+						<div class="zhangdan-1-1">
+							<div class="hei-48">碳烤一头牛远洋店（预定）</div>
+							<div class="hui-36">秦皇岛市海港区河北大街西段550号</div>
+						</div>
+						<div class="zhangdan-1-2">
+							<img src="images/dianhua.png" alt="" class="zhangdan-1-2-1">
+							<img src="images/kefu.png" alt="" class="zhangdan-1-2-2">
+						</div>
+					</div>
+					<div class="zhangdan-2">
+						<div class="zhangdan-2-1">
+							<div class="hei-42">进口肥牛</div>
+							<div class="hei-42 zhangdan-2-1-2">x1</div>
+							<div class="hei-42">￥59</div>
+						</div>
+						<div class="zhangdan-2-1">
+							<div class="hei-42">进口肥牛</div>
+							<div class="hei-42 zhangdan-2-1-2">x1</div>
+							<div class="hei-42">￥59</div>
+						</div>
+						<div class="zhangdan-2-1">
+							<div class="hei-42">进口肥牛</div>
+							<div class="hei-42 zhangdan-2-1-2">x1</div>
+							<div class="hei-42">￥59</div>
+						</div>
+						<div class="zhangdan-2-1 zhangdan-2-1-hui-1">
+							<div class="hui-42">商品总价</div>
+							<div class="hui-42">￥177</div>
+						</div>
+						<div class="zhangdan-2-1 zhangdan-2-1-hui-2">
+							<div class="hui-42">优惠</div>
+							<div class="hui-42">-￥1</div>
+						</div>
+					</div>
+					<div class="zhangdan-3">
+						<div class="hei-42">合计</div>
+						<div class="hei-42">￥176</div>
+					</div>
+					<div class="zhangdan-4">
+						<div class="hui-36">下单时间：2020-7-30 16:30</div>
+						<div class="hui-36">用餐时间：2020-7-30 19:30</div>
+						<div class="hui-36">用餐人数：3人</div>
+						<div class="hui-36">是否包间：否</div>
+						<div class="hui-36">订单编号：1011001010011010111010</div>
+						<div class="hui-36">备注信息：无</div>
+					</div>
+				</div>
+			</div>
+			<div id="page-14" class="page">
+				<div class="zhuangtailan"></div>
+				<div class="xiaochengxu">
+					<img src="images/return.png" alt="" class="return_Btn" onclick="page_Num_1()">
+					<div class="page-title-l">订单详情</div>
+					<img src="images/xiaochengxu-icon.png" alt="" class="xiaochengxu-icon">
+				</div>
+				<div class="zhangdan">
+					<div class="zhangdan-title">
+						<div class="hui-48">已关闭</div>
+					</div>
+					<div class="zhangdan-1">
+						<div class="zhangdan-1-1">
+							<div class="hei-48">碳烤一头牛远洋店（预定）</div>
+							<div class="hui-36">秦皇岛市海港区河北大街西段550号</div>
+						</div>
+						<div class="zhangdan-1-2">
+							<img src="images/dianhua.png" alt="" class="zhangdan-1-2-1">
+							<img src="images/kefu.png" alt="" class="zhangdan-1-2-2">
+						</div>
+					</div>
+					<div class="zhangdan-2">
+						<div class="zhangdan-2-1">
+							<div class="hei-42">进口肥牛</div>
+							<div class="hei-42 zhangdan-2-1-2">x1</div>
+							<div class="hei-42">￥59</div>
+						</div>
+						<div class="zhangdan-2-1">
+							<div class="hei-42">进口肥牛</div>
+							<div class="hei-42 zhangdan-2-1-2">x1</div>
+							<div class="hei-42">￥59</div>
+						</div>
+						<div class="zhangdan-2-1">
+							<div class="hei-42">进口肥牛</div>
+							<div class="hei-42 zhangdan-2-1-2">x1</div>
+							<div class="hei-42">￥59</div>
+						</div>
+						<div class="zhangdan-2-1 zhangdan-2-1-hui-1">
+							<div class="hui-42">商品总价</div>
+							<div class="hui-42">￥177</div>
+						</div>
+						<div class="zhangdan-2-1 zhangdan-2-1-hui-2">
+							<div class="hui-42">优惠</div>
+							<div class="hui-42">-￥1</div>
+						</div>
+					</div>
+					<div class="zhangdan-3">
+						<div class="hei-42">合计</div>
+						<div class="hei-42">￥176</div>
+					</div>
+					<div class="zhangdan-4">
+						<div class="hui-36">下单时间：2020-7-30 16:30</div>
+						<div class="hui-36">用餐时间：2020-7-30 19:30</div>
+						<div class="hui-36">用餐人数：3人</div>
+						<div class="hui-36">是否包间：否</div>
+						<div class="hui-36">订单编号：1011001010011010111010</div>
+						<div class="hui-36">备注信息：无</div>
+					</div>
+				</div>
+			</div>
+			<div id="page-15" class="page">
+				<div class="page-div">15.套餐-待支付</div>
+			</div>
+			<div id="page-16" class="page">
+				<div class="zhuangtailan"></div>
+				<div class="xiaochengxu">
+					<img src="images/return.png" alt="" class="return_Btn" onclick="page_Num_1()">
+					<div class="page-title-l">订单详情</div>
+					<img src="images/xiaochengxu-icon.png" alt="" class="xiaochengxu-icon">
+				</div>
+				<div class="zhangdan">
+					<div class="zhangdan-title">
+						<div class="cheng-48">待使用</div>
+					</div>
+					<div class="zhangdan-1">
+						<div class="zhangdan-1-1">
+							<div class="hei-48">XXX团购/砍价套餐</div>
+							<div class="hui-36">这里应有副标题或者其他什么</div>
+						</div>
+						<div class="zhangdan-1-2">
+							<img src="images/dianhua.png" alt="" class="zhangdan-1-2-1">
+							<img src="images/kefu.png" alt="" class="zhangdan-1-2-2">
+						</div>
+					</div>
+					<div class="zhangdan-2">
+						<div class="zhangdan-2-1">
+							<div class="hei-42">进口肥牛</div>
+							<div class="hei-42 zhangdan-2-1-2">x1</div>
+							<div class="hei-42">￥59</div>
+						</div>
+						<div class="zhangdan-2-1">
+							<div class="hei-42">进口肥牛</div>
+							<div class="hei-42 zhangdan-2-1-2">x1</div>
+							<div class="hei-42">￥59</div>
+						</div>
+						<div class="zhangdan-2-1">
+							<div class="hei-42">进口肥牛</div>
+							<div class="hei-42 zhangdan-2-1-2">x1</div>
+							<div class="hei-42">￥59</div>
+						</div>
+						<div class="zhangdan-2-1 zhangdan-2-1-hui-1">
+							<div class="hui-42">商品总价</div>
+							<div class="hui-42">￥177</div>
+						</div>
+						<div class="zhangdan-2-1 zhangdan-2-1-hui-2">
+							<div class="hui-42">优惠</div>
+							<div class="hui-42">-￥1</div>
+						</div>
+					</div>
+					<div class="zhangdan-3">
+						<div class="hei-42">合计</div>
+						<div class="hei-42">￥176</div>
+					</div>
+					<div class="zhangdan-4">
+						<div class="hui-36">下单时间：2020-7-30 16:30</div>
+						<div class="hui-36">订单编号：1011001010011010111010</div>
+						<div class="hui-36">备注信息：无</div>
+					</div>
+				</div>
+			</div>
+			<div id="page-17" class="page">
+				<div class="zhuangtailan"></div>
+				<div class="xiaochengxu">
+					<img src="images/return.png" alt="" class="return_Btn" onclick="page_Num_1()">
+					<div class="page-title-l">订单详情</div>
+					<img src="images/xiaochengxu-icon.png" alt="" class="xiaochengxu-icon">
+				</div>
+				<div class="zhangdan">
+					<div class="zhangdan-title">
+						<div class="hui-48">已使用</div>
+					</div>
+					<div class="zhangdan-1">
+						<div class="zhangdan-1-1">
+							<div class="hei-48">XXX团购/砍价套餐</div>
+							<div class="hui-36">这里应有副标题或者其他什么</div>
+						</div>
+						<div class="zhangdan-1-2">
+							<img src="images/dianhua.png" alt="" class="zhangdan-1-2-1">
+							<img src="images/kefu.png" alt="" class="zhangdan-1-2-2">
+						</div>
+					</div>
+					<div class="zhangdan-2">
+						<div class="zhangdan-2-1">
+							<div class="hei-42">进口肥牛</div>
+							<div class="hei-42 zhangdan-2-1-2">x1</div>
+							<div class="hei-42">￥59</div>
+						</div>
+						<div class="zhangdan-2-1">
+							<div class="hei-42">进口肥牛</div>
+							<div class="hei-42 zhangdan-2-1-2">x1</div>
+							<div class="hei-42">￥59</div>
+						</div>
+						<div class="zhangdan-2-1">
+							<div class="hei-42">进口肥牛</div>
+							<div class="hei-42 zhangdan-2-1-2">x1</div>
+							<div class="hei-42">￥59</div>
+						</div>
+						<div class="zhangdan-2-1 zhangdan-2-1-hui-1">
+							<div class="hui-42">商品总价</div>
+							<div class="hui-42">￥177</div>
+						</div>
+						<div class="zhangdan-2-1 zhangdan-2-1-hui-2">
+							<div class="hui-42">优惠</div>
+							<div class="hui-42">-￥1</div>
+						</div>
+					</div>
+					<div class="zhangdan-3">
+						<div class="hei-42">合计</div>
+						<div class="hei-42">￥176</div>
+					</div>
+					<div class="zhangdan-4">
+						<div class="hui-36">下单时间：2020-7-30 16:30</div>
+						<div class="hui-36">订单编号：1011001010011010111010</div>
+						<div class="hui-36">备注信息：无</div>
+					</div>
+				</div>
+			</div>
+			<div id="page-18" class="page">
+				<div class="page-div">18.套餐-已关闭</div>
+			</div>
+			<div id="page-19" class="page">
+				<div class="page-div">19.预定点餐</div>
+			</div>
+			<div id="page-20" class="page">
+				<div class="page-div">20.</div>
+			</div>
+			<div id="page-21" class="page">
+				<div class="page-div">21.</div>
+			</div>
+			<div id="page-22" class="page">
+				<div class="page-div">22.</div>
+			</div>
+			<div id="page-23" class="page">
+				
+			</div>
+			<div id="page-24" class="page">
+				
+			</div>
+			<div id="page-25" class="page">
+				
+			</div>
+			<div id="page-26" class="page">
+				
+			</div>
+			<div id="page-27" class="page">
+				
+			</div>
+			<div id="page-28" class="page">
+				
+			</div>
+			<div id="page-29" class="page">
+				
+			</div>
+			<div id="page-30" class="page">
+				
+			</div>
+			<div id="icon">
+				<div id="icon-0" class="icon-div">
+					<img src="images/icon/0-1.png" alt="" class="icon">
+					<div id="icon-0-text" class="hui-36">首页</div>
+				</div>
+				<div id="icon-1" class="icon-div">
+					<img src="images/icon/1-0.png" alt="" class="icon">
+					<div id="icon-0-text" class="hui-36">订单</div>
+				</div>
+				<div id="icon-2" class="icon-div">
+					<img src="images/icon/2-0.png" alt="" class="icon">
+					<div id="icon-0-text" class="hui-36">商城</div>
+				</div>
+				<div id="icon-3" class="icon-div">
+					<img src="images/icon/3-0.png" alt="" class="icon">
+					<div id="icon-0-text" class="hui-36">我的</div>
+				</div>
+				
+			</div>
+		</div>
+	</div>	
 </body>
 <script>
-	var ARR = document.getElementsByClassName("QQQ");
-	var TXT = document.getElementsByClassName("txt");
-	for (var i = 0; i < ARR.length; i++) {
-		TXT[i].innerHTML = ARR[i].src;
-    }
+	var icon = document.getElementById("icon");
+	var icon_Arr = icon.getElementsByClassName("icon-div");
+	var icon_img_Arr = icon.getElementsByClassName("icon");
+	var icon_text_Arr = icon.getElementsByClassName("hui-36");
+	var APP_body = document.getElementById("APP-body");
+	var page_Arr = APP_body.getElementsByClassName("page");
+	var ding_1 = document.getElementById("dingdan-1");
+	var ding_2 = document.getElementById("dingdan-2");
+	var page_1 = document.getElementById("page-1");
+	var dingdan_1 = page_1.getElementsByClassName("dingdan");
+	var dingdan_2 = page_1.getElementsByClassName("dingdan-2");
+	console.log(dingdan_1)
+	console.log(dingdan_2)
+	var page_Num;
+	icon_text_Arr[0].style.color = "#343434";
+	for (var i = 0; i < 4; i++) {
+		page_Arr[i].style.height = "760px";
+	}
+	for (var i = 0; i < icon_Arr.length; i++) {
+		icon_Arr[i].index = i;
+	}
+	icon.addEventListener("click",function(e){
+		console.log(e.target)
+		if (e.target.index != undefined) {
+			for (var i = 0; i < 4; i++) {
+				if (i == e.target.index) {
+					page_Arr[i].style.display = "flex";
+					icon_img_Arr[i].src = "images/icon/" + i + "-1.png"
+					icon_text_Arr[i].style.color = "#343434";
+				}else{
+					page_Arr[i].style.display = "none";
+					icon_img_Arr[i].src = "images/icon/" + i + "-0.png"
+					icon_text_Arr[i].style.color = "#999999";
+				}
+			}
+		}
+	})
+	function page_Num_4() {
+		page_Num = 4;
+		Page_turning()
+		setTimeout(function (){
+			document.getElementById("page-4").style.display = "none";
+			document.getElementById("page-5").style.display = "flex";
+		}, 1000);
+	}
+	function page_Num_19() {
+		page_Num = 19;
+		Page_turning()
+	}
+	function page_Num_8() {
+		page_Num = 8;
+		Page_turning()
+	}
+	function page_Num_12() {
+		page_Num = 12;
+		Page_turning()
+	}
+	function page_Num_11() {
+		page_Num = 11;
+		Page_turning()
+	}
+	function page_Num_16() {
+		page_Num = 16;
+		Page_turning()
+	}
+	function page_Num_9() {
+		page_Num = 9;
+		Page_turning()
+	}
+	function page_Num_13() {
+		page_Num = 13;
+		Page_turning()
+	}
+	function page_Num_14() {
+		page_Num = 14;
+		Page_turning()
+	}
+	function page_Num_17() {
+		page_Num = 17;
+		Page_turning()
+	}
+	function page_Num_1() {
+		page_Num = 1;
+		Page_turning()
+	}
+	function Page_turning() {
+		for (var i = 0; i < page_Arr.length; i++) {
+			page_Arr[i].style.display = "none";
+		}
+		page_Arr[page_Num].style.display = "flex";
+	}
+	function shopping_1() {
+		document.getElementById("settlement-l").style.display = "none";
+		document.getElementById("shopping").style.display = "flex";
+	}
+	function shopping_2() {
+		document.getElementById("settlement-l").style.display = "block";
+		document.getElementById("shopping").style.display = "none";
+	}
+	function home() {
+		for (var i = 0; i < page_Arr.length; i++) {
+			if (i == 0) {
+				page_Arr[i].style.display = "block";
+			}else{
+				page_Arr[i].style.display = "none";
+			}
+		}
+		for (var i = 0; i < icon_Arr.length; i++) {
+			if (i == 0) {
+				page_Arr[i].style.display = "block";
+				icon_Arr[i].src = "images/icon/" + i + "-1.png"
+			}else{
+				page_Arr[i].style.display = "none";
+				icon_Arr[i].src = "images/icon/" + i + "-0.png"
+			}
+		}
+	}
+	function settlement() {
+		for (var i = 0; i < page_Arr.length; i++) {
+			if (i == 6) {
+				page_Arr[i].style.display = "block";
+			}else{
+				page_Arr[i].style.display = "none";
+			}
+		}
+	}
+	function fanhui_diancan() {
+		for (var i = 0; i < page_Arr.length; i++) {
+			if (i == 5) {
+				page_Arr[i].style.display = "block";
+			}else{
+				page_Arr[i].style.display = "none";
+			}
+		}
+	}
+	function dd_1() {
+		ding_1.style.borderBottom = "3px solid #343434";
+		ding_2.style.borderBottom = "0px solid #343434";
+		ding_1.style.color = "#343434";
+		ding_2.style.color = "#999999";
+		for (var i = 0; i < dingdan_1.length; i++) {
+			dingdan_1[i].style.display = "block";
+			dingdan_2[i].style.display = "none";
+		}
+	}
+	function dd_2() {
+		ding_1.style.borderBottom = "0px solid #343434";
+		ding_2.style.borderBottom = "3px solid #343434";
+		ding_1.style.color = "#999999";
+		ding_2.style.color = "#343434";
+		for (var i = 0; i < dingdan_1.length; i++) {
+			dingdan_1[i].style.display = "none";
+			dingdan_2[i].style.display = "block";
+		}
+	}
 </script>
 </html>
